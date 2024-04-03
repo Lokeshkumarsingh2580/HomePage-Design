@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper min-h-screen grid w-screen">
+      <div
+        class="page1 bg-[url(bg.jpg)] bg-cover flex justify-center items-center bg-bottom min-h-[50vh]"
+      >
+        <div
+          class="div text-white list-none lg:flex lg:flex-row flex-col flex items-center lg:gap-28 gap-12 p-11 lg:p-0"
+        >
+          <h1 class="text-5xl font-bold">Images</h1>
+          <img src="bg.jpg" alt="bike" class="w-72" />
+          <li class="font-semibold text-lg">Mesmering</li>
+          <li class="font-semibold text-lg">Enthralling</li>
+          <li class="font-semibold text-lg">Astonishing</li>
+        </div>
+      </div>
+      <div class="page2 bg-green-800 grid lg:grid-cols-3 min-h-[50vh] w-full">
+        <div
+          class="bg-[url(snow.jpg)] bg-cover justify-around bg-center min-h-[50vh] flex flex-col text-white items-center w-full h-full"
+        >
+          <h1 class="text-6xl font-bold">Popular</h1>
+          <p class="text-justify px-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+            ipsum quasi. Nesciunt necessitatibus architecto laborum asperiores
+            maiores accusamus? Eum delectus earum, tempore a harum nostrum
+            tempora voluptatibus pariatur reiciendis iure.
+          </p>
+        </div>
+        <div class="Box-2">
+          <div
+            class="top w-full text-center space-y-6 p-4 min-h-[25vh] text-white h-1/2 bg-[url(box2.jpg)] bg-center bg-cover"
+          >
+            <h1 class="text-4xl font-bold">Latest</h1>
+            <p class="text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+              placeat?
+            </p>
+          </div>
+          <div
+            class="bottom w-full flex items-center px-4 h-1/2 min-h-[25vh] bg-[url(box2-bottom.jpg)] bg-center bg-cover"
+          >
+            <h2 class="text-5xl text-white">More...</h2>
+          </div>
+        </div>
+        <div
+          class="bg-gradient-to-r from-cyan-500 to-blue-500 min-h-[50vh] items-center relative flex w-full h-full"
+        >
+          <img
+            src="magnifying-glass.png"
+            alt=""
+            class="w-72 absolute -rotate-12"
+          />
+          <ul class="space-y-6 text-lg ml-36 font-semibold">
+            <li>Pri<span class="text-2xl">vacy Poli</span>cies</li>
+            <li><span class="text-2xl">erms and C</span>ondition</li>
+            <li>Contact Us</li>
+            <li>About Us</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
